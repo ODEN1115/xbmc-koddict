@@ -28,3 +28,4 @@ Connection -> Region は Japan で、Sign In… から自分の Amazon アカウ
 6. ビデオアドオンから Amazon VOD を開き、アニメを見たら Koddict で Annict へ視聴記録ができます。
 (バグは多いです。きちんと Annict へ記録できたか確認することをおすすめします。
 Annict 視聴記録と Twitter 投稿を同時にしたい方は addon.py を開いて「"share_twitter": "false",」の行を「"share_twitter": "true",」に変えてください。後々、設定できるようにします (予定))
+![例1](example.png)
