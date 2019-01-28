@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.koddict" name="Koddict" version="1.0.2" provider-name="ODEN">
+  <requires>
+    <import addon="xbmc.python" version="2.20.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.xmltodict"/>
+    <import addon="script.module.qrcode"/>
+    <import addon="script.module.pil" version="1.1.7"/>
+  </requires>
+  <extension point="kodi.context.item">
+    <menu id="kodi.core.main">
+        <item library="addon.py">
+        <label>Koddict</label>
+        <visible>true</visible>
+        </item>
+    </menu>
+  </extension>
+</addon>
